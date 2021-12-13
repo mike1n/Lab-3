@@ -1,0 +1,8 @@
+p > b {
+  color: red;
+  font-weight: bold;
+}
+p > i {
+  font-style: oblique;
+  color: blue;
+}

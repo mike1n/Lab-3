@@ -1,0 +1,49 @@
+.nav-text {
+  font-family: "Poppins", sans-serif;
+  text-indent: 40px;
+  text-align: left;
+  text-decoration: underline;
+  line-height: normal;
+  text-shadow: 1px 1px 2px black;
+  letter-spacing: 1px;
+  word-spacing: 3px;
+  text-transform: none;
+}
+.btn {
+  background-color: blue;
+  font-size: medium;
+  text-align: center;
+  padding: 2px;
+  border: black;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+}
+.nav-button:not(:last-child) {
+  margin: 1em;
+}
+.btn:active {
+  background-color: black;
+  transform: translateY(5px);
+}
+.btn:hover {
+  background-color: red;
+}
+.h {
+  color: silver;
+}
+.sp {
+  color: blue;
+  font-style: italic;
+}
+.list {
+  background-color: cyan;
+  padding: 1em;
+  display: flex;
+  flex-wrap: wrap;
+}
+.a-list {
+  color: red;
+}
+.item2 {
+  margin: 2px;
+}
